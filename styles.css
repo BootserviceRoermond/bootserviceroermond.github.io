@@ -1,0 +1,99 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 16px;
+    background: #0087B4;
+    color: #f1f1f1;
+    display: block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+    height: 100%;
+}
+
+.bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/achtergrond.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.middle {
+    padding: 0 15% 0 15%;
+}
+
+#bold {
+    font-size: 40px;
+    font-family: 'Axiforma';
+    font-weight: 900;
+    font-style: normal;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#light {
+    font-size: 40px;
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 !important;
+    padding: 0;
+    transform: translate(0, -20px);
+}
+
+#under {
+    font-size: 40px;
+    font-family: 'Axiforma';
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 !important;
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 10px 18px black;
+}
+
+#under img {
+    transform: scale(4);
+}
+
+#logo {
+    display: inline-block;
+    transform: translate(0, 13px);
+}
+
+#selector {
+    transform: translate(0, -15px);
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    transform: translate(24px, 5px);
+}
+
+a {
+    font-size: 40px;
+    font-family: 'Axiforma';
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 !important;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    color: lightgray;
+}
